@@ -1,0 +1,176 @@
+.geometria-plana {
+    /*background-color: #c1c9c7;*/
+    padding: 20px;
+
+  }
+  
+  .formula-container {
+    background-color: #e0e0e0;
+    border: 2px solid #043C71;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin: 30px;
+    position: relative;
+    width: 400px;
+  }
+  .setores-formulas{
+
+    display: flex;
+  }
+  .setor-formulas2{
+    display: flex;
+
+  }
+  h1, h2 {
+    color: #043C71;
+    font-family: 'Arial', sans-serif;
+  } 
+  .input-formula, .input-resposta {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #043C71;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #c1c9c7;
+  }
+  .botoes{
+    display: flex;
+    justify-content: center; /* Distribui os botões com espaço entre eles */
+  align-items: center; /* Alinha verticalmente ao centro */
+  margin-right: 60px;
+    }
+  
+  .botao-calcular {
+    background-color: #0a0e12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+  }
+  .botao-aprender {
+    background-color: #043C71;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .switch-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #043C71;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  .text-area-resolucao {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #043C71;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+  } 
+  .geometry-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .formula-section {
+    flex: 1;
+  }
+  
+  .banner {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%; /* Largura do banner */
+    height: 100%; /* Ocupa toda a altura da tela */
+    background-color: #043C71;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .banner-content {
+    margin-top: 20px;
+  }
+  
+  .close-button {
+    width: 50px;              /* Largura do botão */
+    height: 50px;             /* Altura do botão, igual à largura para ser circular */
+    border-radius: 50%;       /* Deixa o botão redondo */
+    background-color: #F2F2F2; /* Cor de fundo */
+    color: #043C71;             /* Cor do texto */
+    border: none;             /* Sem borda */
+    display: flex;            /* Centraliza o conteúdo */
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;          /* Tamanho da fonte */
+    cursor: pointer; 
+    
+  }
+  
+  .close-button:hover {
+    background-color: #005499;
+    color: white;
+  }

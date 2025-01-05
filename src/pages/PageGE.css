@@ -1,0 +1,61 @@
+
+body{
+ 
+  margin: 0; 
+  padding: 0; 
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.geometria-espacial {
+
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  top: 25px;
+}
+
+.header,
+button {
+  top: 10;
+  margin-right: 25px;
+  
+}
+
+.setores-formulas {
+  display: flex;
+}
+
+.setor-formulas2 {
+  display: flex;
+}
+
+h1,h2 {
+  color: #043C71;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.botao-voltar {
+  background-color: #043C71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 300px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+}
+
+.botao-voltar:hover {
+  background-color: #032A4E;
+}

@@ -1,0 +1,25 @@
+.category-button {
+    background-color: #d3d9db;
+    border: 3px solid #043C71;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+  }
+  
+  .category-button img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .category-button p {
+    font-size: 1rem;
+    color: #043C71;
+    font-weight: bold;
+    text-align: center;
+  }
