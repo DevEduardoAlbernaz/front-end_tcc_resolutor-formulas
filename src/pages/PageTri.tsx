@@ -1,4 +1,4 @@
-import './PageTRI.css';
+import './PageTri.css';
 import { BannerHip } from '../components/pageTriComponents/BannerHip';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
